@@ -20,5 +20,7 @@ module SharingPictures
       g.template_engine = :haml
       g.test_framework :rspec, view_specs: false, routing_specs: false
     end
+    config.sass.preferrd_syntax = :sass
+    config.sass.syntax = :sass
   end
 end

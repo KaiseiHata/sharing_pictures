@@ -17,7 +17,7 @@ module SharingPictures
     config.generators do |g|
       g.assets false
       g.helper false
-      g.template_engine = :slim
+      g.template_engine = :haml
       g.test_framework :rspec, view_specs: false, routing_specs: false
     end
   end
